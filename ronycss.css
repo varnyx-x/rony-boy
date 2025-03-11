@@ -7,6 +7,19 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
+body {
+    background-image: url('rony.jpg'); /* Certifique-se que o caminho está correto */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetições */
+    background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Em telas menores, ajusta para exibir toda a imagem */
+    }
+}
 
 .ficha {
     position: relative;
