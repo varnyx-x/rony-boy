@@ -13,12 +13,6 @@ body {
     background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
 }
 
-@media (max-width: 768px) {
-    body {
-        background-size: contain; /* Em telas menores, ajusta para exibir toda a imagem */
-    }
-}
-
 .ficha {
     position: relative;
     background-size: contain;
