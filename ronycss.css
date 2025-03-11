@@ -21,7 +21,6 @@ body {
 
 .ficha {
     position: relative;
-    background: url('fotos/rony.jpg') no-repeat center;
     background-size: contain;
     background-position: center;
     width: 100%;
