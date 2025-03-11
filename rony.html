@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ronycss.css"
+</head>
+<body>
+    <div class="ficha">
+        <input type="text" class="campo" id="nome" placeholder="Nome" style="top: 85%; left: 53%; width: 9%;">
+        <input type="text" class="campo" id="jogador" placeholder="Jogador" style="top: 88%; left: 52%; width: 8%;">
+        <input type="number" class="campo" id="carisma" placeholder="0" min="0" max="5" style="top: 9%; left: 41%; width: 2%;">
+        <input type="number" class="campo" id="inteligencia" placeholder="0" min="0" max="5" style="top: 17%; left: 39%; width: 2%;">
+        <input type="number" class="campo" id="agilidade" placeholder="0" min="0" max="5" style="top: 17%; left: 43%; width: 2%;">
+        <input type="number" class="campo" id="resistencia" placeholder="0" min="0" max="5" style="top: 17%; left: 47%; width: 2%;">
+        <input type="number" class="campo" id="forca" placeholder="0" min="0" max="5" style="top: 17%; left: 35%; width: 2%;">
+        <input type="text" class="campo" id="bracoD" placeholder="perna" style="top: 88%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="bracoE" placeholder="perna" style="top: 82%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="pernaD" placeholder="Braço E" style="top: 77%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="pernaE" placeholder="Braço D" style="top: 72%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="cabeca" placeholder="Cabeça" style="top: 61%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="tronco" placeholder="Tronco" style="top: 67%; left: 37%; width: 7%;">
+        <input type="text" class="campo" id="funcao" placeholder="Função" style="top: 46%; left: 55%; width: 7%;">
+        <input type="number" class="campo" id="pv" placeholder="0" style="top: 55%; left: 55%; width: 3%;">
+        <input type="number" class="campo" id="pe" placeholder="0" style="top: 55%; left: 61%; width: 3%;">
+        <input type="number" class="campo" id="defesa" placeholder="0" style="top: 64%; left: 55%; width: 3%;">
+        <input type="number" class="campo" id="san" placeholder="0" style="top: 64%; left: 61%; width: 3%;">
+
+
+        <select class="pericia" id="pericia11" style="top: calc(36% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia10" style="top: calc(38% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia8" style="top: calc(40% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia7" style="top: calc(42% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia6" style="top: calc(44% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia5" style="top: calc(46% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia0" style="top: calc(48% + 0.5%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia1" style="top: calc(50% + 0.4%); left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia2" style="top: 52%; left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia3" style="top: 54%; left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia4" style="top: 56%; left: calc(34% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia22" style="top: calc(36% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia21" style="top: calc(38% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia20" style="top: calc(40% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia19" style="top: calc(42% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia18" style="top: calc(44% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia17" style="top: calc(46% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia16" style="top: calc(48% + 0.5%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia15" style="top: calc(50% + 0.4%); left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia14" style="top: 52%; left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia13" style="top: 54%; left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia12" style="top: 56%; left: calc(42% + 0.6%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+ 
+        <select class="pericia" id="pericia221" style="top: calc(36% + 0.9%); left: calc(50% + 0.8%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia211" style="top: calc(38% + 0.9%); left: calc(50% + 0.8%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+        <select class="pericia" id="pericia201" style="top: calc(40% + 0.9%); left: calc(50% + 0.8%); width: 3%;">
+            <option value="0">0</option>
+            <option value="5">+5</option>
+            <option value="10">+10</option>
+            <option value="15">+15</option>
+        </select>
+
+
+    </div>
+
+    <script>
+        function salvarDados() {
+            let campos = document.querySelectorAll('.campo, .pericia');
+            campos.forEach(campo => {
+                localStorage.setItem(campo.id, campo.value);
+            });
+        }
+
+        function carregarDados() {
+            let campos = document.querySelectorAll('.campo, .pericia');
+            campos.forEach(campo => {
+                let valorSalvo = localStorage.getItem(campo.id);
+                if (valorSalvo !== null) {
+                    campo.value = valorSalvo;
+                }
+            });
+        }
+
+        // Ajustar tamanho do input conforme o conteúdo
+        function ajustarTamanho() {
+            let campos = document.querySelectorAll(".campo");
+            campos.forEach(campo => {
+                campo.style.width = (campo.value.length + 1) + "ch";
+            });
+        }
+
+        document.addEventListener("input", function(event) {
+            salvarDados();
+            ajustarTamanho();
+        });
+
+        window.onload = function() {
+            carregarDados();
+            ajustarTamanho();
+        };
+    </script>
+</body>
+</html>
