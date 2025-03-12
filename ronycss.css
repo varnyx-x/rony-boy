@@ -6,15 +6,11 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f4f4f4;
-    background-image: url('rony.jpg'); /* Certifique-se que o caminho está correto */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetições */
-    background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
 }
 
 .ficha {
     position: relative;
+    background: url('fotos/rony.jpg') no-repeat center;
     background-size: contain;
     background-position: center;
     width: 100%;
