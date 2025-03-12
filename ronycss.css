@@ -39,23 +39,23 @@ body {
 }
 
 #nome { top: 85vh; left: 53vw; width: 9vw; }
-#jogador { top: 88%; left: 52%; width: 8%; }
-#carisma { top: 9%; left: 41%; width: 2%; }
-#inteligencia { top: 17%; left: 39%; width: 2%; }
-#agilidade { top: 17%; left: 43%; width: 2%; }
-#resistencia { top: 17%; left: 47%; width: 2%; }
-#forca { top: 17%; left: 35%; width: 2%; }
-#bracoD { top: 88%; left: 37%; width: 7%; }
-#bracoE { top: 82%; left: 37%; width: 7%; }
-#pernaD { top: 77%; left: 37%; width: 7%; }
-#pernaE { top: 72%; left: 37%; width: 7%; }
-#cabeca { top: 61%; left: 37%; width: 7%; }
-#tronco { top: 67%; left: 37%; width: 7%; }
-#funcao { top: 46%; left: 55%; width: 7%; }
-#pv { top: 55%; left: 55%; width: 3%; }
-#pe { top: 55%; left: 61%; width: 3%; }
-#defesa { top: 64%; left: 55%; width: 3%; }
-#san { top: 64%; left: 61%; width: 3%; }
+#jogador { top: 88vh; left: 52vw; width: 8vw; }
+#carisma { top: 9vh; left: 41vw; width: 2vw; }
+#inteligencia { top: 17vh; left: 39vw; width: 2vw; }
+#agilidade { top: 17vh; left: 43vw; width: 2vw; }
+#resistencia { top: 17vh; left: 47vw; width: 2vw; }
+#forca { top: 17vh; left: 35vw; width: 2vw; }
+#bracoD { top: 88vh; left: 37vw; width: 7vw; }
+#bracoE { top: 82vh; left: 37vw; width: 7vw; }
+#pernaD { top: 77vh; left: 37vw; width: 7vw; }
+#pernaE { top: 72vh; left: 37vw; width: 7vw; }
+#cabeca { top: 61vh; left: 37vw; width: 7vw; }
+#tronco { top: 67vh; left: 37vw; width: 7vw; }
+#funcao { top: 46vh; left: 55vw; width: 7vw; }
+#pv { top: 55vh; left: 55vw; width: 3vw; }
+#pe { top: 55vh; left: 61vw; width: 3vw; }
+#defesa { top: 64vh; left: 55vw; width: 3vw; }
+#san { top: 64vh; left: 61vw; width: 3vw; }
 
 @media (max-width: 768px) {
     body {
