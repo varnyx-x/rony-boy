@@ -43,6 +43,12 @@ body {
         height: auto;
         flex-direction: column;
         padding: 10px;
+        font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     }
     
     .ficha {
