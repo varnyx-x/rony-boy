@@ -20,38 +20,49 @@ body {
     align-items: center;
 }
 
-.campo {
+.campo, .pericia {
     position: absolute;
     background: transparent;
     border: none;
     color: #00ff00;
     text-align: center;
     font-family: monospace;
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(10px, 2vw, 18px);
+    padding: 2px;
     width: auto;
     min-width: 50px;
-    max-width: 15%;
+    max-width: 20%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     outline: none;
 }
 
-.pericia {
-    appearance: none;
-    position: absolute;
-    background: transparent;
-    border: none;
-    color: #00ff00;
-    text-align: center;
-    font-family: monospace;
-    font-size: 12px; /* Diminuído para caber melhor */
-    padding: 2px;
-    width: auto;
-    min-width: 40px;
-    max-width: 10%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    outline: none;
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .ficha {
+        height: 80vh;
+        background-size: cover;
+    }
+    
+    .campo, .pericia {
+        font-size: clamp(10px, 4vw, 16px);
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ficha {
+        height: 70vh;
+    }
+    
+    .campo, .pericia {
+        font-size: clamp(8px, 5vw, 14px);
+        max-width: 40%;
+    }
 }
