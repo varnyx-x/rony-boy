@@ -30,8 +30,8 @@ body {
     font-size: clamp(10px, 2vw, 18px);
     padding: 2px;
     width: auto;
-    min-width: 50px;
-    max-width: 20%;
+    min-width: 10vw;
+    max-width: 20vw;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
