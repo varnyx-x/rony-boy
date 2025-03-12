@@ -38,7 +38,7 @@ body {
     outline: none;
 }
 
-#nome { top: 85%; left: 53%; width: 9%; }
+#nome { top: 85vh; left: 53vw; width: 9vw; }
 #jogador { top: 88%; left: 52%; width: 8%; }
 #carisma { top: 9%; left: 41%; width: 2%; }
 #inteligencia { top: 17%; left: 39%; width: 2%; }
